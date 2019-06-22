@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "postal-rate-calculator",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "An app to calculate postal rate",
   "engines": {
     "node": "10.x"
   },
@@ -11,6 +11,7 @@
     "test": "node test.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
@@ -20,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/dfinger11/cs313-prove09.git"
   },
   "keywords": [
     "node",

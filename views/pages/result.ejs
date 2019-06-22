@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Rate</title>
+</head>
+    <body>
+    <h1>Rate Result</h1>
+    <%if (rate != -1) { %>
+        <p>When using "<%= type %>" with a weight of "<%= wt %>" the rate is: $<%= rate %>.</p>
+    <% } else { %>
+        <p>Something went wrong please try again!</p>
+        <p>Reminder please make sure your weight is between 1 and 13 ounces.</p>
+    <% } %>
+    </body>
+    </body>
+</html>
